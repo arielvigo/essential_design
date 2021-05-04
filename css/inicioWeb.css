@@ -9,6 +9,7 @@ body, html {
   .fondoImagen{ 
     background-image: url("../imagenes/Logo_Inicio/inicio_web.jpg");
     height: 100%;
+    max-width: 100%;
   }
   
   
