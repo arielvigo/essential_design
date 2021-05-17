@@ -343,7 +343,7 @@ fieldset {
 
 
 
-@media only screen and (max-device-width: 980px) {
+@media only screen and (max-width: 980px) {
 
  
 
@@ -363,7 +363,7 @@ fieldset {
 
 
 
-@media only screen and (max-device-width: 770px) {
+@media only screen and (max-width: 770px) {
 
   .robotoCondSize{
     font-size: 14px;
@@ -384,7 +384,7 @@ fieldset {
 
 }
 
-@media only screen and (max-device-width: 650px) {
+@media only screen and (max-width: 650px) {
 
   .robotoCondSize{
     font-size: 12px;
@@ -405,7 +405,7 @@ fieldset {
 }
 
 
-@media only screen and (max-device-width: 450px) {
+@media only screen and (max-width: 450px) {
 
   .robotoCondSize{
     font-size: 9px;
