@@ -93,3 +93,100 @@ font-family: "Lato", sans-serif;
 .container .btn:hover {
 background-color: black;
 }
+
+@media only screen and (max-width: 1200px) {
+  .caption span.border  {
+    background-color: rgb(17, 17, 17);
+    color: #fff;
+    padding: 12px;
+    font-size: 23px;
+    letter-spacing: 8px;
+    border: 0 px;
+  }
+  .btn{
+    font-size: 0.9rem !important;
+  }
+}
+
+
+@media only screen and (max-width: 1024px) {
+  .caption span.border  {
+    background-color: rgb(17, 17, 17);
+    color: #fff;
+    padding: 12px;
+    font-size: 22px;
+    letter-spacing: 8px;
+    border: 0 px;
+  }
+  .btn{
+    font-size: 0.8rem !important;
+  }
+}
+
+
+@media only screen and (max-width: 768px) {
+  .caption span.border  {
+    background-color: rgb(17, 17, 17);
+    color: #fff;
+    padding: 10px;
+    font-size: 20px;
+    letter-spacing: 8px;
+    border: 0 px;
+  }
+  .btn{
+    font-size: 0.7rem !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .caption span.border  {
+    background-color: rgb(17, 17, 17);
+    color: #fff;
+    padding: 10px;
+    font-size: 18px;
+    letter-spacing: 8px;
+    border: 0 px;
+  }
+  .btn{
+    font-size: 0.6rem !important;
+  }
+}
+
+
+@media only screen and (max-width: 480px) {
+  .caption span.border  {
+    background-color: rgb(17, 17, 17);
+    color: #fff;
+    padding: 8px;
+    font-size: 15px;
+    letter-spacing: 6px;
+    border: 0 px;
+  }
+  .btn{
+    font-size: 0.5rem !important;
+  }
+}
+
+
+
+@media only screen and (max-width: 320px) {
+  .caption span.border  {
+    background-color: rgb(17, 17, 17);
+    color: #fff;
+    padding: 8px;
+    font-size: 10px;
+    letter-spacing: 6px;
+    border: 0 px;
+  }
+  p , a {
+    padding:3px 10px;
+    text-align: center;
+    text-decoration: none;
+    color: #777;         
+    font-family: "Lato", sans-serif;  
+    font-size: 8px;
+}
+.btn-group-sm{
+  font-size: 0.4rem !important;
+}
+}
