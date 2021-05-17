@@ -20,6 +20,14 @@
 
 .oswald{font-family: 'Oswald', sans-serif;}
 
+.watchText{
+  font-size: 1.5rem;
+}
+
+.watchTime{
+  font-size: 2.5rem;
+}
+
 .homemadeApple {
 font-family: 'Homemade Apple', cursive;
 font-size: 50px;
@@ -93,30 +101,8 @@ header {
      font-family: 'Roboto', sans-serif;
      font-size: 15px;
      }
- /*                       
- header a {
- text-align: left;
- padding: 3px;
- background-color: rgb(238, 238, 238);
- color: rgb(141, 141, 141);
- text-decoration:none;
- list-style-type: none;
- font-family: 'Roboto', sans-serif;
-      font-size: 25px;
-       }
+ 
 
- header li {
-    text-align: left;
-      padding: 3px;
-      background-color: rgb(238, 238, 238);
-      color: rgb(141, 141, 141);
-      text-decoration:none;
-      list-style-type: none;
-      font-family: 'Roboto', sans-serif;
-      font-size: 25px;
-      }
-
-*/
 footer{
     text-align: left;
     background-color: rgb(241, 241, 241);
@@ -348,3 +334,99 @@ fieldset {
   text-align: inherit;
   padding:  0px 38px 0px 38px;
 }
+
+
+
+
+
+
+
+
+
+@media only screen and (max-device-width: 980px) {
+
+ 
+
+    .watchText{
+      font-size: 1.2rem !important;
+    }
+    
+    .watchTime{
+      font-size: 2.3rem !important;
+    }
+
+
+}
+
+
+
+
+
+
+@media only screen and (max-device-width: 770px) {
+
+  .robotoCondSize{
+    font-size: 14px;
+  }
+
+  .homemadeApple {
+    font-size: 35px;
+    }
+
+    .watchText{
+      font-size: 0.8rem !important;
+    }
+    
+    .watchTime{
+      font-size: 1.2rem !important;
+    }
+
+
+}
+
+@media only screen and (max-device-width: 650px) {
+
+  .robotoCondSize{
+    font-size: 12px;
+  }
+
+  .homemadeApple {
+    font-size: 25px;
+    }
+
+    
+    .watchText{
+      font-size: 0.8rem !important;
+    }
+    
+    .watchTime{
+      font-size: 1.2rem !important;
+    }
+}
+
+
+@media only screen and (max-device-width: 450px) {
+
+  .robotoCondSize{
+    font-size: 9px;
+  }
+
+  .homemadeApple {
+    font-size: 15px;
+    }
+
+  .lead{
+
+  font-size: 1rem ;
+  }
+
+  .watchText{
+    font-size: 0.5rem !important;
+  }
+  
+  .watchTime{
+    font-size: 1rem !important;
+  }
+
+}
+
