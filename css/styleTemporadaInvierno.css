@@ -152,11 +152,12 @@ background: linear-gradient(90deg, rgba(211, 212, 212, 0.306) 0%, rgb(57, 58, 57
     font-size: 60px;
   }
   
-  @media (max-width: 420px){
+
+  @media only screen and (max-device-width:900px) {
     .overlay {overflow-y: auto;}
     .overlay a {font-size: 15px}
-    .fontDancing{font-size: 30px}
-    .fontHind{font-size: 40px}
+    .fontDancing{font-size: 65px}
+    .fontHind{font-size: 65px}
     .centrarTitulos{
       margin-left:30px}
     .overlay .closebtn {
@@ -167,6 +168,50 @@ background: linear-gradient(90deg, rgba(211, 212, 212, 0.306) 0%, rgb(57, 58, 57
   }
 
 
+
+
+  @media only screen and (max-device-width:750px) {
+    .overlay {overflow-y: auto;}
+    .overlay a {font-size: 15px}
+    .fontDancing{font-size: 50px}
+    .fontHind{font-size: 50px}
+    .centrarTitulos{
+      margin-left:30px}
+    .overlay .closebtn {
+    font-size: 20px !important;
+    top: 15px;
+    right: 35px;
+    }
+  }
+
+
+  @media only screen and (max-device-width: 450px) {
+    .overlay {overflow-y: auto;}
+    .overlay a {font-size: 15px}
+    .fontDancing{font-size: 40px}
+    .fontHind{font-size: 33px}
+    .centrarTitulos{
+      margin-left:30px}
+    .overlay .closebtn {
+    font-size: 20px !important;
+    top: 15px;
+    right: 35px;
+    }
+  }
+
+  @media only screen and (max-device-width: 300px) {
+    .overlay {overflow-y: auto;}
+    .overlay a {font-size: 15px}
+    .fontDancing{font-size: 25px}
+    .fontHind{font-size: 17px}
+    .centrarTitulos{
+      margin-left:30px}
+    .overlay .closebtn {
+    font-size: 20px !important;
+    top: 15px;
+    right: 35px;
+    }
+  }
 
 
   .fondoImagenTempInvierno{
